@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="TestCases.TestRunCasesClass">
+        <methods>
+          <include name="TestCase02_Collections_Scoring_and_Strategy_Assignment"/>
+          <include name="setupRecorder"/>
+          <include name="TestCases05_Create_Accounting"/>
+          <include name="TestCase06_ProcessIDValidation"/>
+          <include name="TestCase04_Create_Receivables_Accounting"/>
+          <include name="endReport"/>
+          <include name="ExtentReportGeneration"/>
+          <include name="stopRecording"/>
+          <include name="TestCase03_Collections_Delinquency_Management"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestCases.TestRunCasesClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
